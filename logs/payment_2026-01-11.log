@@ -1,0 +1,19 @@
+INFO [14:51:44] - Ping service
+ERROR [14:51:44] - Timeout requête externe
+ERROR [14:51:44] - Fichier introuvable
+INFO [14:51:44] - Utilisateur déconnecté
+WARNING [14:51:44] - API dépréciée utilisée
+WARNING [14:51:44] - Temps de réponse élevé
+CRITICAL [14:51:44] - Service arrêté inopinément
+CRITICAL [14:51:44] - Disque plein
+ERROR [14:51:44] - Échec de connexion DB
+INFO [14:51:44] - Requête reçue
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Utilisateur déconnecté
+INFO [14:51:44] - Utilisateur déconnecté
+INFO [14:51:44] - Ping service
+ERROR [14:51:44] - Fichier introuvable

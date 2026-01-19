@@ -1,0 +1,12 @@
+WARNING [14:51:44] - Tentative de reconnexion
+ERROR [14:51:44] - Fichier introuvable
+CRITICAL [14:51:44] - Service arrêté inopinément
+INFO [14:51:44] - Démarrage session
+WARNING [14:51:44] - Tentative de reconnexion
+ERROR [14:51:44] - Échec de connexion DB
+ERROR [14:51:44] - Timeout requête externe
+INFO [14:51:44] - Requête reçue
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Requête reçue
+INFO [14:51:44] - Démarrage session
+ERROR [14:51:44] - Échec de connexion DB

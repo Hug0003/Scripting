@@ -1,0 +1,17 @@
+INFO [14:51:44] - Requête reçue
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Démarrage session
+ERROR [14:51:44] - Échec de connexion DB
+CRITICAL [14:51:44] - Disque plein
+WARNING [14:51:44] - Tentative de reconnexion
+WARNING [14:51:44] - Tentative de reconnexion
+WARNING [14:51:44] - Tentative de reconnexion
+WARNING [14:51:44] - Temps de réponse élevé
+INFO [14:51:44] - Utilisateur déconnecté
+WARNING [14:51:44] - Tentative de reconnexion
+WARNING [14:51:44] - Temps de réponse élevé
+ERROR [14:51:44] - Échec de connexion DB
+WARNING [14:51:44] - Tentative de reconnexion
+INFO [14:51:44] - Requête reçue
+INFO [14:51:44] - Requête reçue
+INFO [14:51:44] - Requête reçue

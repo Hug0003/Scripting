@@ -1,0 +1,16 @@
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Utilisateur déconnecté
+INFO [14:51:44] - Requête reçue
+WARNING [14:51:44] - Temps de réponse élevé
+WARNING [14:51:44] - Tentative de reconnexion
+ERROR [14:51:44] - Échec de connexion DB
+CRITICAL [14:51:44] - Service arrêté inopinément
+INFO [14:51:44] - Requête reçue
+ERROR [14:51:44] - Fichier introuvable
+INFO [14:51:44] - Utilisateur déconnecté
+INFO [14:51:44] - Utilisateur déconnecté
+WARNING [14:51:44] - Temps de réponse élevé
+WARNING [14:51:44] - Tentative de reconnexion
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Ping service
+WARNING [14:51:44] - API dépréciée utilisée

@@ -1,0 +1,11 @@
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Ping service
+ERROR [14:51:44] - Échec de connexion DB
+INFO [14:51:44] - Requête reçue
+WARNING [14:51:44] - API dépréciée utilisée
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+INFO [14:51:44] - Requête reçue
+ERROR [14:51:44] - Échec de connexion DB
+WARNING [14:51:44] - API dépréciée utilisée
+INFO [14:51:44] - Utilisateur déconnecté
+ERROR [14:51:44] - Fichier introuvable

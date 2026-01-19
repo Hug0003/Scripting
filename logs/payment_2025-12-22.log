@@ -1,0 +1,18 @@
+WARNING [14:51:44] - API dépréciée utilisée
+ERROR [14:51:44] - Fichier introuvable
+ERROR [14:51:44] - Timeout requête externe
+INFO [14:51:44] - Requête reçue
+WARNING [14:51:44] - Tentative de reconnexion
+INFO [14:51:44] - Utilisateur déconnecté
+WARNING [14:51:44] - API dépréciée utilisée
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+CRITICAL [14:51:44] - Disque plein
+ERROR [14:51:44] - Fichier introuvable
+WARNING [14:51:44] - API dépréciée utilisée
+WARNING [14:51:44] - Tentative de reconnexion
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+WARNING [14:51:44] - Tentative de reconnexion
+INFO [14:51:44] - Requête reçue
+ERROR [14:51:44] - Échec de connexion DB
+WARNING [14:51:44] - Temps de réponse élevé
+WARNING [14:51:44] - Tentative de reconnexion

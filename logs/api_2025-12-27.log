@@ -1,0 +1,7 @@
+WARNING [14:51:44] - API dépréciée utilisée
+WARNING [14:51:44] - API dépréciée utilisée
+INFO [14:51:44] - Requête reçue
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+ERROR [14:51:44] - Fichier introuvable
+ERROR [14:51:44] - Échec de connexion DB
+INFO [14:51:44] - Utilisateur déconnecté

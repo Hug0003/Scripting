@@ -1,0 +1,14 @@
+INFO [14:51:44] - Utilisateur déconnecté
+ERROR [14:51:44] - Échec de connexion DB
+INFO [14:51:44] - Requête reçue
+INFO [14:51:44] - Requête reçue
+WARNING [14:51:44] - Temps de réponse élevé
+WARNING [14:51:44] - API dépréciée utilisée
+WARNING [14:51:44] - Temps de réponse élevé
+ERROR [14:51:44] - Fichier introuvable
+WARNING [14:51:44] - API dépréciée utilisée
+ERROR [14:51:44] - Timeout requête externe
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+WARNING [14:51:44] - Tentative de reconnexion
+WARNING [14:51:44] - Tentative de reconnexion
+ERROR [14:51:44] - Fichier introuvable

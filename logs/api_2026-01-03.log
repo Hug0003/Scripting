@@ -1,0 +1,16 @@
+ERROR [14:51:44] - Timeout requête externe
+ERROR [14:51:44] - Timeout requête externe
+CRITICAL [14:51:44] - Disque plein
+INFO [14:51:44] - Requête reçue
+INFO [14:51:44] - Requête reçue
+INFO [14:51:44] - Démarrage session
+WARNING [14:51:44] - API dépréciée utilisée
+INFO [14:51:44] - Utilisateur déconnecté
+INFO [14:51:44] - Utilisateur déconnecté
+INFO [14:51:44] - Ping service
+ERROR [14:51:44] - Timeout requête externe
+INFO [14:51:44] - Ping service
+WARNING [14:51:44] - API dépréciée utilisée
+INFO [14:51:44] - Ping service
+WARNING [14:51:44] - Tentative de reconnexion
+ERROR [14:51:44] - Fichier introuvable

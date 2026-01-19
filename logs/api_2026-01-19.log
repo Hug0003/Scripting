@@ -1,0 +1,13 @@
+INFO [14:51:44] - Ping service
+ERROR [14:51:44] - Timeout requête externe
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Ping service
+CRITICAL [14:51:44] - Disque plein
+WARNING [14:51:44] - Tentative de reconnexion
+WARNING [14:51:44] - Tentative de reconnexion
+ERROR [14:51:44] - Échec de connexion DB
+ERROR [14:51:44] - Échec de connexion DB
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Démarrage session

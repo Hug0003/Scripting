@@ -1,0 +1,9 @@
+ERROR [14:51:44] - Échec de connexion DB
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Démarrage session
+CRITICAL [14:51:44] - Disque plein
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+WARNING [14:51:44] - API dépréciée utilisée
+WARNING [14:51:44] - Tentative de reconnexion
+WARNING [14:51:44] - Tentative de reconnexion
+INFO [14:51:44] - Requête reçue

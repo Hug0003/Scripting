@@ -1,0 +1,15 @@
+ERROR [14:51:44] - Fichier introuvable
+ERROR [14:51:44] - Échec de connexion DB
+WARNING [14:51:44] - API dépréciée utilisée
+WARNING [14:51:44] - API dépréciée utilisée
+WARNING [14:51:44] - API dépréciée utilisée
+ERROR [14:51:44] - Timeout requête externe
+WARNING [14:51:44] - Temps de réponse élevé
+ERROR [14:51:44] - Fichier introuvable
+CRITICAL [14:51:44] - Service arrêté inopinément
+WARNING [14:51:44] - Tentative de reconnexion
+WARNING [14:51:44] - Tentative de reconnexion
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+INFO [14:51:44] - Utilisateur déconnecté
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Utilisateur déconnecté

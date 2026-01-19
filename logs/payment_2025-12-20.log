@@ -1,0 +1,14 @@
+INFO [14:51:44] - Requête reçue
+WARNING [14:51:44] - API dépréciée utilisée
+INFO [14:51:44] - Utilisateur déconnecté
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Démarrage session
+WARNING [14:51:44] - Temps de réponse élevé
+INFO [14:51:44] - Utilisateur déconnecté
+INFO [14:51:44] - Démarrage session
+WARNING [14:51:44] - API dépréciée utilisée
+INFO [14:51:44] - Démarrage session
+WARNING [14:51:44] - API dépréciée utilisée
+CRITICAL [14:51:44] - Disque plein
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+WARNING [14:51:44] - Temps de réponse élevé

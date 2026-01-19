@@ -1,0 +1,17 @@
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+WARNING [14:51:44] - Temps de réponse élevé
+ERROR [14:51:44] - Échec de connexion DB
+WARNING [14:51:44] - Temps de réponse élevé
+WARNING [14:51:44] - Temps de réponse élevé
+ERROR [14:51:44] - Fichier introuvable
+WARNING [14:51:44] - Tentative de reconnexion
+INFO [14:51:44] - Utilisateur déconnecté
+ERROR [14:51:44] - Échec de connexion DB
+WARNING [14:51:44] - Temps de réponse élevé
+CRITICAL [14:51:44] - Service arrêté inopinément
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Requête reçue
+INFO [14:51:44] - Ping service
+ERROR [14:51:44] - Échec de connexion DB
+ERROR [14:51:44] - Fichier introuvable
+INFO [14:51:44] - Démarrage session

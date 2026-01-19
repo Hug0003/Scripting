@@ -1,0 +1,11 @@
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Ping service
+CRITICAL [14:51:44] - Service arrêté inopinément
+WARNING [14:51:44] - Temps de réponse élevé
+WARNING [14:51:44] - API dépréciée utilisée
+INFO [14:51:44] - Démarrage session
+WARNING [14:51:44] - Temps de réponse élevé
+INFO [14:51:44] - Ping service
+ERROR [14:51:44] - Échec de connexion DB
+WARNING [14:51:44] - Tentative de reconnexion
+INFO [14:51:44] - Requête reçue

@@ -1,0 +1,6 @@
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+INFO [14:51:44] - Démarrage session
+ERROR [14:51:44] - Fichier introuvable
+WARNING [14:51:44] - Tentative de reconnexion
+INFO [14:51:44] - Démarrage session
+ERROR [14:51:44] - Timeout requête externe

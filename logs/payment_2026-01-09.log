@@ -1,0 +1,6 @@
+ERROR [14:51:44] - Fichier introuvable
+WARNING [14:51:44] - API dépréciée utilisée
+CRITICAL [14:51:44] - Service arrêté inopinément
+INFO [14:51:44] - Utilisateur déconnecté
+WARNING [14:51:44] - API dépréciée utilisée
+INFO [14:51:44] - Requête reçue

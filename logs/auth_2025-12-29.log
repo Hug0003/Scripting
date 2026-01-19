@@ -1,0 +1,13 @@
+INFO [14:51:44] - Requête reçue
+ERROR [14:51:44] - Fichier introuvable
+INFO [14:51:44] - Requête reçue
+INFO [14:51:44] - Utilisateur déconnecté
+WARNING [14:51:44] - Temps de réponse élevé
+ERROR [14:51:44] - Échec de connexion DB
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Utilisateur déconnecté
+INFO [14:51:44] - Démarrage session
+WARNING [14:51:44] - Tentative de reconnexion
+ERROR [14:51:44] - Échec de connexion DB
+INFO [14:51:44] - Démarrage session
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES

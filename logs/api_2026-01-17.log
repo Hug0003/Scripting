@@ -1,0 +1,18 @@
+WARNING [14:51:44] - API dépréciée utilisée
+WARNING [14:51:44] - Temps de réponse élevé
+ERROR [14:51:44] - Échec de connexion DB
+WARNING [14:51:44] - Tentative de reconnexion
+ERROR [14:51:44] - Timeout requête externe
+WARNING [14:51:44] - API dépréciée utilisée
+INFO [14:51:44] - Requête reçue
+ERROR [14:51:44] - Timeout requête externe
+WARNING [14:51:44] - API dépréciée utilisée
+WARNING [14:51:44] - Temps de réponse élevé
+INFO [14:51:44] - Démarrage session
+ERROR [14:51:44] - Échec de connexion DB
+WARNING [14:51:44] - Temps de réponse élevé
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Utilisateur déconnecté
+INFO [14:51:44] - Utilisateur déconnecté
+WARNING [14:51:44] - Tentative de reconnexion
+INFO [14:51:44] - Utilisateur déconnecté

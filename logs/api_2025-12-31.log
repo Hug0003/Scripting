@@ -1,0 +1,10 @@
+CRITICAL [14:51:44] - Service arrêté inopinément
+WARNING [14:51:44] - Tentative de reconnexion
+INFO [14:51:44] - Ping service
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+WARNING [14:51:44] - API dépréciée utilisée
+ERROR [14:51:44] - Timeout requête externe
+WARNING [14:51:44] - Temps de réponse élevé
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Démarrage session
+INFO [14:51:44] - Requête reçue

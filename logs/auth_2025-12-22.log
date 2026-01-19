@@ -1,0 +1,13 @@
+INFO [14:51:44] - Démarrage session
+ERROR [14:51:44] - Fichier introuvable
+INFO [14:51:44] - Ping service
+ERROR [14:51:44] - Timeout requête externe
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Requête reçue
+ERROR [14:51:44] - Fichier introuvable
+INFO [14:51:44] - Ping service
+CRITICAL [14:51:44] - Disque plein
+CRITICAL [14:51:44] - CORRUPTION DE DONNÉES
+WARNING [14:51:44] - API dépréciée utilisée
+INFO [14:51:44] - Ping service
+INFO [14:51:44] - Démarrage session
