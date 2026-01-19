@@ -1,3 +1,5 @@
+# Augustin LAGRANGE & Hugo MEURIEL
+
 # Projet de Scripting - Gestion de Logs
 
 Ce dépôt contient des scripts Bash pour l'automatisation de la gestion des logs et de l'espace disque.
