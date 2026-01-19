@@ -52,13 +52,9 @@ for log in "$cheminLog"*.log; do
         echo "$nom_fichier n'est pas vieux de 7 jours" >> "$cheminLogSystem"
     fi
 
-    # --- Verification 30 jours (seulement si le fichier existe encore) ---
+    # --- Verification 30 jours ---
     if [ -f "$log" ]; then
         if [[ "$date_du_fichier" < "$date_il_y_a_30_jours" ]]; then
-            # S'il est encore là après 30 jours, c'est qu'il était CRITICAL
-            # Mais après 30 jours, on supprime même les critical ?
-            # Le script original semblait vouloir dire : 
-            # "Si > 30 jours et contient CRITICAL, on supprime et on log"
             
             if grep -q -i "CRITICAL" "$log"; then
                 rm -f "$log"
