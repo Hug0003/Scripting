@@ -36,16 +36,16 @@ for log in "$cheminLog"*.log; do
     date_il_y_a_30_jours=$(date -d "30 days ago" +%Y-%m-%d)
 
     # --- Verification 7 jours ---
-    if [[ "$date_du_fichier" < "$date_il_y_a_7_jours" ]]; then
+    if [[ "$date_du_fichier" -lt "$date_il_y_a_7_jours" ]]; then
         # On archive
-        echo "Archivage de $nom_fichier"
+        echo "Archivage de $nom_fichier" >> "$cheminLogSystem"
         tar -czf "${cheminLogArchive}/${nom_fichier}.tar.gz" -C "$cheminLog" "$nom_fichier"
         
         # Verification CRITICAL
         if grep -q -i "CRITICAL" "$log"; then
             echo "Impossible de supprimer le fichier (CRITICAL) : $log" >> "$cheminLogSystem"
         else
-            echo "Suppression (nettoyage < 7 jours) : $log"
+            echo "Suppression (nettoyage < 7 jours) : $log" >> "$cheminLogSystem"
             rm -f "$log"
         fi
     else
@@ -64,3 +64,51 @@ for log in "$cheminLog"*.log; do
     fi
 
 done
+
+
+# Date d'il y a 1 an (format YYYYMMDD compatible string comparison)
+limite=$(date -d "1 year ago" +%Y%m%d)
+
+# 1. Check espace
+pcent=$(df / | awk 'NR==2 {print $5}' | tr -d '%')
+
+# Seuil à 90%
+if [ "$pcent" -ge 90 ]; then
+    echo "--- Nettoyage déclenché le $(date) ---" >> "$cheminLogSystem"
+    echo "Taux d'occupation avant: ${pcent}%" >> "$cheminLogSystem"
+
+    # 2. Nettoyage
+
+    for f in ./logs/archives/*.tar.gz; do
+        # Si pas de fichiers, on sort
+        [ -e "$f" ] || continue
+
+        nom=$(basename "$f")
+        
+        # Extraction date. 
+        date_str=$(echo "$nom" | cut -d'_' -f2 | cut -d'.' -f1)
+        
+        # Conversion YYYYMMDD pour comparaison
+        date_f=$(date -d "$date_str" +%Y%m%d 2>/dev/null)
+
+        # Si date invalide, on skip par sécurité
+        if [ -z "$date_f" ]; then
+            echo "Date invalide pour $nom, ignoré." >> "$cheminLogSystem"
+            continue
+        fi
+
+        # Check CRITICAL dans l'archive
+        is_critical=0
+        if tar -Oxzf "$f" | grep -q -i "CRITICAL"; then
+            is_critical=1
+        fi
+
+        
+        if [ "$is_critical" -eq 0 ] || [ "$date_f" -lt "$limite" ]; then
+            rm "$f" && echo "Supprimé: $nom (Critical=$is_critical, Date=$date_f)" >> "$cheminLogSystem"
+        fi
+    done
+
+    nouv_pcent=$(df / | awk 'NR==2 {print $5}' | tr -d '%')
+    echo "Taux d'occupation après: ${nouv_pcent}%" >> "$cheminLogSystem"
+fi
